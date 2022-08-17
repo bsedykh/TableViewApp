@@ -34,20 +34,18 @@ class MainViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomTableViewCell
         
-        var contentConfiguration = cell.defaultContentConfiguration()
-        contentConfiguration.text = restaurantNames[indexPath.row]
-        contentConfiguration.image = UIImage(named: restaurantNames[indexPath.row])
-        cell.contentConfiguration = contentConfiguration
+        cell.placeImage.image = UIImage(named: restaurantNames[indexPath.row])
+        cell.nameLabel.text = restaurantNames[indexPath.row]
 
         return cell
     }
     
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
-    }
+//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        return 85
+//    }
     
 
     /*

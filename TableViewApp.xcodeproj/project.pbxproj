@@ -13,6 +13,7 @@
 		4991A31528AC34BA007822D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4991A31428AC34BA007822D7 /* Assets.xcassets */; };
 		4991A31828AC34BA007822D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4991A31628AC34BA007822D7 /* LaunchScreen.storyboard */; };
 		4991A32028AC38E7007822D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991A31F28AC38E7007822D7 /* MainViewController.swift */; };
+		4991A32228AD219E007822D7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991A32128AD219E007822D7 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4991A31728AC34BA007822D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4991A31928AC34BA007822D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4991A31F28AC38E7007822D7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4991A32128AD219E007822D7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4991A30D28AC34B7007822D7 /* SceneDelegate.swift */,
 				4991A31128AC34B7007822D7 /* Main.storyboard */,
 				4991A31F28AC38E7007822D7 /* MainViewController.swift */,
+				4991A32128AD219E007822D7 /* CustomTableViewCell.swift */,
 				4991A31428AC34BA007822D7 /* Assets.xcassets */,
 				4991A31628AC34BA007822D7 /* LaunchScreen.storyboard */,
 				4991A31928AC34BA007822D7 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				4991A32028AC38E7007822D7 /* MainViewController.swift in Sources */,
 				4991A30C28AC34B7007822D7 /* AppDelegate.swift in Sources */,
+				4991A32228AD219E007822D7 /* CustomTableViewCell.swift in Sources */,
 				4991A30E28AC34B7007822D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
