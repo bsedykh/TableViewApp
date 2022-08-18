@@ -43,9 +43,7 @@ class MainViewController: UITableViewController {
     }
     
     
-//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        return 85
-//    }
+
     
 
     /*
@@ -92,5 +90,7 @@ class MainViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func addPlaceCancel(_ segue: UIStoryboardSegue) {}
 
 }

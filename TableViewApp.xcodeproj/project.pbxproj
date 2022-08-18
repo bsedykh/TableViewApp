@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		496694C428AED5F100533E69 /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496694C328AED5F100533E69 /* AddPlaceViewController.swift */; };
 		4991A30C28AC34B7007822D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991A30B28AC34B7007822D7 /* AppDelegate.swift */; };
 		4991A30E28AC34B7007822D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991A30D28AC34B7007822D7 /* SceneDelegate.swift */; };
 		4991A31328AC34B7007822D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4991A31128AC34B7007822D7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		496694C328AED5F100533E69 /* AddPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
 		4991A30828AC34B7007822D7 /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4991A30B28AC34B7007822D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4991A30D28AC34B7007822D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				4991A31128AC34B7007822D7 /* Main.storyboard */,
 				4991A31F28AC38E7007822D7 /* MainViewController.swift */,
 				4991A32128AD219E007822D7 /* CustomTableViewCell.swift */,
+				496694C328AED5F100533E69 /* AddPlaceViewController.swift */,
 				4991A31428AC34BA007822D7 /* Assets.xcassets */,
 				4991A31628AC34BA007822D7 /* LaunchScreen.storyboard */,
 				4991A31928AC34BA007822D7 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496694C428AED5F100533E69 /* AddPlaceViewController.swift in Sources */,
 				4991A32028AC38E7007822D7 /* MainViewController.swift in Sources */,
 				4991A30C28AC34B7007822D7 /* AppDelegate.swift in Sources */,
 				4991A32228AD219E007822D7 /* CustomTableViewCell.swift in Sources */,
